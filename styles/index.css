@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+}
+
+.page-container > .navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #223255;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  opacity: 90%;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.page-container > .navbar > img {
+  width: 64px;
+}
+.page-container > .navbar-cover {
+  background-color: #223255;
+  height: 90px;
+}
+
+.page-container > .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/airplane-background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.page-container > .background > video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.page-container > .background > img {
+  position: absolute;
+  width: 250px;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.page-container > .mission-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/people.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+
+.page-container > .mission-section > h1 {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.page-container > .mission-section > img {
+  width: 100px;
+  margin: 10px 0 50px 0;
+}
+
+.page-container > .mission-section > p {
+  max-width: 650px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.page-container > .person-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 800px;
+}
+
+.page-container > .person-wrapper > .plane {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-container > .person-wrapper > .mike-pitey {
+  background-image: url("/images/mike-patey-plane.webp");
+}
+
+.page-container > .person-wrapper > .mark-pitey {
+  background-image: url("/images/mark-patey-plane.webp");
+}
+
+.page-container > .person-wrapper > .jason-sneed {
+  background-image: url("/images/jason-sneed-plane.webp");
+}
+
+.page-container > .person-wrapper > .kevin-quinn {
+  background-image: url("/images/kevin-quinn-plane.webp");
+}
+
+.page-container > .person-wrapper > .steven-henry {
+  background-image: url("/images/steven-henry-plane.webp");
+}
+
+.page-container > .person-wrapper > .trent-palmer {
+  background-image: url("/images/trent-palmer-plane.webp");
+}
+
+.page-container > .person-wrapper > .creighton-king {
+  background-image: url("/images/creighton-king-plane.webp");
+}
+
+.page-container > .person-wrapper > .hal-stockman {
+  background-image: url("/images/hal-stockman-plane.webp");
+}
+
+.page-container > .person-wrapper > .scott-palmer {
+  background-image: url("/images/scott-palmer-plane.webp");
+}
+
+.page-container > .person-wrapper > .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #223255;
+  color: white;
+}
+
+.page-container > .person-wrapper > .about > .name {
+  margin: 50px 0 5px 0;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.page-container > .person-wrapper > .about > .location {
+  color: #e21c21;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.page-container > .person-wrapper > .about > .award {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+.page-container > .person-wrapper > .about > img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  filter: grayscale() contrast(0.6);
+  margin: 30px 0;
+}
+
+.page-container > .person-wrapper > .about > .description {
+  width: 60%;
+  line-height: 1.5;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+.page-container > .person-wrapper > .about > .small {
+  font-size: 10px;
+}
+
+.page-container > .person-wrapper > .about > .description > a {
+  color: white;
+}
+
+.page-container > .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  background-color: #223255;
+  color: white;
+  font-size: 13px;
+}
